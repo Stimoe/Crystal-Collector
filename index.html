@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Number game</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css" />
+</head>
+
+<body>
+    <!-- <div id="game"> -->
+
+    <h1>Guess the number!</h1>
+
+    <p id="number_to_reach">Number to reach <span id="number"></span></p>
+   
+    <p id=current_number value="0">Current number <span id="current_number_span">0</span></p>
+    <p id="wins">Wins: <span id="wins"></span></p>
+    <p id="losses">Losses: <span id="losses"></span></p>
+    <div class="container">
+        <div id="rock1">
+            <img class="rocks" src="https://i.imgur.com/DKkP4mr.png" alt="purple rock">
+            <button id="button-1" class="btn btn-choice number"></button>
+        </div>
+        <div id="rock2">
+            <img class="rocks" src="https://i.imgur.com/SD0fNhi.png" alt="red rock">
+            <button id="button-2" class="btn btn-choice number"></button>
+        </div>
+        <div id="rock3">
+            <img class="rocks" src="https://i.imgur.com/XJ5oIh5.png" alt="green rock">
+            <button id="button-3" class="btn btn-choice number"></button>
+        </div>
+        <div id=rock4>
+            <img class="rocks" src="https://i.imgur.com/GgfddaH.png" alt="blue rock">
+            <button id="button-4" class="btn btn-choice number"></button>
+        </div>
+    </div>
+    
+
+    <!-- </div> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets\javascript\game.js"></script>
+</body>
+
+</html>

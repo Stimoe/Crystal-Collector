@@ -1,0 +1,22 @@
+
+
+
+    
+
+
+.container .btn {
+        display: inline-flex;
+        
+        border: none;
+        cursor: pointer;
+      }
+
+
+.rocks {
+    max-width: 75px;
+    max-height: 75px;
+}
+.container img {
+    width: 100%;
+    height: auto;
+  }
