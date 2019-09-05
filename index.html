@@ -13,35 +13,69 @@
     <link rel="stylesheet" type="text/css" href="assets\css\style.css" />
 </head>
 
-<body>
-    <!-- <div id="game"> -->
+<body background="assets\images\beeswax-15218__340.jpg">
 
-    <h1>Guess the number!</h1>
 
-    <p id="number_to_reach">Number to reach <span id="number"></span></p>
-   
-    <p id=current_number value="0">Current number <span id="current_number_span">0</span></p>
-    <p id="wins">Wins: <span id="wins"></span></p>
-    <p id="losses">Losses: <span id="losses"></span></p>
     <div class="container">
-        <div id="rock1">
-            <img class="rocks" src="https://i.imgur.com/DKkP4mr.png" alt="purple rock">
-            <button id="button-1" class="btn btn-choice number"></button>
+        <div class="row">
+            <div id="header1" class="col-lg-4">
+                <h1>CRYSTAL COLLECTOR</h1>
+            </div>
         </div>
-        <div id="rock2">
-            <img class="rocks" src="https://i.imgur.com/SD0fNhi.png" alt="red rock">
-            <button id="button-2" class="btn btn-choice number"></button>
+
+
+        <div class="row">
+            <div id="instructions" class="col-lg-6">
+                <P>You will be given a random number at the beggining of the game</P>
+                <P>There are four crystals below. By clicking on a crystal you will add a specidic amount of points to
+                    your total</P>
+                <P>You win the game by matching your total score to a random number, you lose the game if your total
+                    score goes above the random number</P>
+                <P>The valiue of each crystal is hidden from you until you click on it</P>
+                <P>Each time when the game starts, the game will change the values of each crystal</P>
+            </div>
         </div>
-        <div id="rock3">
-            <img class="rocks" src="https://i.imgur.com/XJ5oIh5.png" alt="green rock">
-            <button id="button-3" class="btn btn-choice number"></button>
+
+
+        <div class="row">
+            <div id="number-goal" class="col-lg-4">
+                <p id="number_to_reach"><span id="number"></span></p>
+            </div>
+            <div id="score" class="col-lg-2">
+                <p id="win">Wins: <span id="wins">0</span></p>
+                <p id="loss">Losses: <span id="losses">0</span></p>
+            </div>
         </div>
-        <div id=rock4>
-            <img class="rocks" src="https://i.imgur.com/GgfddaH.png" alt="blue rock">
-            <button id="button-4" class="btn btn-choice number"></button>
+
+        <div id = "rock-images" class="row btn btn-choice container border-0">
+            <div id="rock1" class="col-lg-1 btn btn-choice">
+                <img class="rocks" src="https://i.imgur.com/DKkP4mr.png" alt="purple rock">
+                <button id="button-1" class="btn"></button>
+            </div>
+            <div id="rock2" class="col-lg-1 btn btn-choice">
+                <img class="rocks" src="https://i.imgur.com/SD0fNhi.png" alt="red rock">
+                <button id="button-2" class="btn"></button>
+            </div>
+            <div id="rock3" class="col-lg-1 btn btn-choice border-0">
+                <img class="rocks border-0" src="https://i.imgur.com/XJ5oIh5.png" alt="green rock">
+                <button id="button-3" class="btn border-0"></button>
+            </div>
+            <div id="rock4" class="col-lg-1 btn btn-choice border-0">
+                <img class="rocks border-0" src="https://i.imgur.com/GgfddaH.png" alt="blue rock">
+                <button id="button-4" class="btn border-0"></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="current-score" class="col-lg-3">
+                <p id=current_number value="0">Current number <span id="current_number_span">0</span></p>
+            </div>
         </div>
     </div>
-    
+    </div>
+    </div>
+    </div>
+
 
     <!-- </div> -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

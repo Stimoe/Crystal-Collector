@@ -1,22 +1,49 @@
 
-
-
-    
-
-
-.container .btn {
+.btn {
         display: inline-flex;
-        
-        border: none;
-        cursor: pointer;
+        max-width: 100%;
+        max-height: 100%;
       }
 
 
-.rocks {
-    max-width: 75px;
-    max-height: 75px;
-}
-.container img {
+
+.container, img {
     width: 100%;
     height: auto;
+  }
+  #rock-images {
+    border-color: white;
+    padding: 0;
+  }
+  #header1 {
+    background-color: orange;
+  }
+  #instructions {
+    background-color: tan
+  }
+  #number-goal {
+    background-color: lightgreen;
+    font-size: 200%;
+  }
+  #score {
+    background-color: lightblue;
+  }
+  #current-score {
+    background-color: teal;
+    font-size: 150%;
+  }
+  #rock1, #rock2, #rock3, #rock4 {
+    background-color: white;
+    max-width:150%;
+    border-color: white;
+
+  }
+  @media screen and (max-width: 992px) {
+   .btn {
+     max-width: 400px;
+   }
+   .row {
+     flex-wrap: nowrap;
+   }
+    
   }
