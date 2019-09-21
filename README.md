@@ -1,8 +1,6 @@
 # unit-4-game
 
-Word Guess makes is like hangman, guess the word.
 
-The project is a good example of how to randomize words from an array.
 
 If anyone is interested they can run the index html and check out the code.
 
